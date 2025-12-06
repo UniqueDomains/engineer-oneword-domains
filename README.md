@@ -21,7 +21,7 @@ If you want to search & filters the complete database of [.ENGINEER one word dom
 
 | Domain              | Status    | Attract. | Demand | Length | Registrar | Created | Expires |
 | ------------------- | --------- | -------- | ------ | ------ | --------- | ------- | ------- |
-| aaa.engineer        | available | 70       | 38%    | 3      |           |         |         |
+| aaa.engineer        | premium   | 70       | 38%    | 3      |           |         |         |
 | abactinal.engineer  | available | 50       | 1%     | 9      |           |         |         |
 | abaft.engineer      | available | 43       | 2%     | 5      |           |         |         |
 | abandoned.engineer  | available | 58       | 7%     | 9      |           |         |         |
@@ -31,7 +31,7 @@ If you want to search & filters the complete database of [.ENGINEER one word dom
 | abatic.engineer     | available | 54       | 2%     | 6      |           |         |         |
 | abaxial.engineer    | available | 54       | 2%     | 7      |           |         |         |
 | abbatial.engineer   | available | 50       | 1%     | 8      |           |         |         |
-| abc.engineer        | available | 102      | 41%    | 3      |           |         |         |
+| abc.engineer        | premium   | 102      | 41%    | 3      |           |         |         |
 | abdicable.engineer  | available | 50       | 1%     | 9      |           |         |         |
 | abdominal.engineer  | available | 82       | 5%     | 9      |           |         |         |
 | abdominous.engineer | available | 56       | 1%     | 10     |           |         |         |
