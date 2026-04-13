@@ -67,22 +67,22 @@ print(df.head())
 | http.engineer      | available | $13.99    | —             | 80             | 72     | 4      | name.com          |
 | automatic.engineer | resell    | —         | —             | 92             | 98     | 9      | GoDaddy.com, LLC  |
 | power.engineer     | premium   | $1,300    | $1,300        | 98             | 62     | 5      | namecheap         |
-| forge.engineer     | available | $13.99    | $56.99        | 62             | 45     | 5      | name.com          |
+| secret.engineer    | available | $13.99    | —             | 80             | 45     | 6      | name.com          |
 | get.engineer       | resell    | —         | —             | 88             | 69     | 3      | Porkbun LLC       |
-| free.engineer      | premium   | $1,250    | $1,250        | 88             | 59     | 4      | name.com          |
+| cloud.engineer     | premium   | $1,300    | $1,300        | 70             | 59     | 5      | namecheap         |
 | nice.engineer      | available | $13.99    | $56.99        | 86             | 44     | 4      | name.com          |
 | code.engineer      | resell    | —         | —             | 72             | 61     | 4      | NameCheap, Inc.   |
-| cloud.engineer     | premium   | $1,300    | $1,300        | 70             | 59     | 5      | namecheap         |
-| secret.engineer    | available | $13.99    | —             | 80             | 44     | 6      | name.com          |
+| free.engineer      | premium   | $1,250    | $1,250        | 88             | 57     | 4      | name.com          |
+| forge.engineer     | available | $13.99    | $56.99        | 62             | 44     | 5      | name.com          |
 | context.engineer   | resell    | —         | —             | 108            | 59     | 7      | Sav.com, LLC - 11 |
 | live.engineer      | premium   | $75       | $75           | 108            | 56     | 4      | name.com          |
 | pop.engineer       | available | $13.99    | $56.99        | 82             | 43     | 3      | name.com          |
 | sex.engineer       | resell    | —         | —             | 98             | 59     | 3      | Sav.com, LLC - 49 |
 | business.engineer  | premium   | $1,300    | $1,300        | 100            | 53     | 8      | namecheap         |
-| order.engineer     | available | $13.99    | $56.99        | 78             | 41     | 5      | name.com          |
+| quick.engineer     | available | $13.99    | $56.99        | 72             | 41     | 5      | name.com          |
 | future.engineer    | resell    | —         | —             | 94             | 55     | 6      | Spaceship, Inc.   |
 | one.engineer       | premium   | $1,250    | $1,250        | 132            | 50     | 3      | name.com          |
-| quick.engineer     | available | $13.99    | $56.99        | 72             | 41     | 5      | name.com          |
+| care.engineer      | available | $52.98    | —             | 80             | 40     | 4      | namecheap         |
 | zero.engineer      | resell    | —         | —             | 112            | 53     | 4      | Dynadot Inc       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
