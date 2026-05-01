@@ -1,10 +1,10 @@
-# Available .ENGINEER One-Word Domains (11,354)
+# Available .ENGINEER One-Word Domains (12,166)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C354%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C166%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .engineer one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **11,354 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **12,166 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,354 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,166 domains
 
-**Last updated:** 2026-04-26  
+**Last updated:** 2026-05-01  
 **Canonical page:** `https://unique.domains/domains/tld/engineer`  
 **Best for:** founders, investors, studios
 
@@ -67,18 +67,18 @@ print(df.head())
 | spectra.engineer      | available | $13.99    | —             | 62             | 34     | 7      | name.com    |
 | maps.engineer         | resell    | —         | —             | 56             | 31     | 4      | Dynadot Inc |
 | WiFi.engineer         | premium   | $1,400    | $1,400        | 83             | 37     | 5      | namecheap   |
-| letsgo.engineer       | available | $13.99    | —             | 57             | 31     | 7      | name.com    |
-| spaces.engineer       | premium   | $75       | —             | 54             | 30     | 6      | name.com    |
 | popup.engineer        | available | $13.99    | —             | 84             | 29     | 6      | name.com    |
 | SanDiego.engineer     | premium   | $1,107    | $1,107        | 74             | 29     | 9      | namesilo    |
 | quotes.engineer       | available | $13.99    | —             | 58             | 29     | 6      | name.com    |
-| heroes.engineer       | premium   | $75       | —             | 68             | 29     | 6      | name.com    |
-| commonground.engineer | available | $13.99    | —             | 74             | 28     | 13     | name.com    |
 | pages.engineer        | premium   | $75       | —             | 52             | 28     | 5      | name.com    |
-| photos.engineer       | available | $13.99    | —             | 54             | 28     | 6      | name.com    |
+| cams.engineer         | available | $13.99    | —             | 52             | 29     | 4      | name.com    |
+| coupons.engineer      | premium   | $71.40    | $71.40        | 52             | 24     | 7      | namesilo    |
+| commonground.engineer | available | $13.99    | —             | 74             | 28     | 13     | name.com    |
 | designs.engineer      | premium   | $1,250    | —             | 72             | 21     | 7      | name.com    |
-| gods.engineer         | available | $13.99    | —             | 72             | 27     | 4      | name.com    |
+| photos.engineer       | available | $13.99    | —             | 54             | 28     | 6      | name.com    |
 | resources.engineer    | premium   | $75       | —             | 58             | 21     | 9      | name.com    |
+| gods.engineer         | available | $13.99    | —             | 72             | 27     | 4      | name.com    |
+| blogs.engineer        | premium   | $71.40    | $71.40        | 52             | 21     | 5      | namesilo    |
 | bees.engineer         | available | $13.99    | —             | 54             | 27     | 4      | name.com    |
 | plans.engineer        | premium   | $123.75   | —             | 60             | 20     | 5      | name.com    |
 | doctors.engineer      | available | $13.99    | —             | 56             | 26     | 7      | name.com    |
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 11,354 live domains                              |
+| 1,000-row public sample | 12,166 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
