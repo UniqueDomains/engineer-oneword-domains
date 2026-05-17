@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .engineer one-word domains 
 
 **Public extract:** 1,000 rows · **Live catalog:** 12,171 domains · **Median ask:** $33.90 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-15  
+**Last updated:** 2026-05-17  
 **Canonical page:** `https://unique.domains/domains/tld/engineer`  
 **Best for:** founders, investors, studios
 
@@ -67,22 +67,22 @@ print(df.head())
 | Acup.engineer     | available | $52.98    | —             | 80             | 5      | 5      | namecheap   |
 | jewels.engineer   | available | $13.99    | —             | 80             | 15     | 6      | name.com    |
 | geton.engineer    | available | $13.99    | —             | 82             | 10     | 6      | name.com    |
-| popup.engineer    | available | $13.99    | —             | 84             | 29     | 6      | name.com    |
+| popup.engineer    | available | $13.99    | —             | 84             | 28     | 6      | name.com    |
 | dogsit.engineer   | available | $13.99    | —             | 96             | 2      | 6      | name.com    |
 | edamame.engineer  | available | $13.99    | —             | 80             | 9      | 7      | name.com    |
 | QandA.engineer    | available | $52.98    | —             | 80             | 10     | 7      | namecheap   |
 | hangon.engineer   | available | $13.99    | —             | 82             | 6      | 7      | name.com    |
-| makeit.engineer   | available | $13.99    | —             | 82             | 22     | 7      | name.com    |
+| makeit.engineer   | available | $13.99    | —             | 82             | 21     | 7      | name.com    |
 | stirup.engineer   | available | $13.99    | —             | 82             | 3      | 7      | name.com    |
 | getlife.engineer  | available | $13.99    | —             | 80             | 5      | 8      | name.com    |
 | leaveon.engineer  | available | $13.99    | —             | 80             | 1      | 8      | name.com    |
 | spectra.engineer  | available | $13.99    | —             | 62             | 34     | 7      | name.com    |
 | maps.engineer     | resell    | —         | —             | 56             | 31     | 4      | Dynadot Inc |
 | WiFi.engineer     | premium   | $1,400    | $1,400        | 83             | 37     | 5      | namecheap   |
-| SanDiego.engineer | premium   | $1,107    | $1,107        | 74             | 29     | 9      | namesilo    |
 | quotes.engineer   | available | $13.99    | —             | 58             | 29     | 6      | name.com    |
-| pages.engineer    | premium   | $75       | —             | 52             | 28     | 5      | name.com    |
+| SanDiego.engineer | premium   | $1,107    | $1,107        | 74             | 29     | 9      | namesilo    |
 | cams.engineer     | available | $13.99    | —             | 52             | 29     | 4      | name.com    |
+| pages.engineer    | premium   | $75       | —             | 52             | 28     | 5      | name.com    |
 | coupons.engineer  | premium   | $71.40    | $71.40        | 52             | 24     | 7      | namesilo    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-05-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-05-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
