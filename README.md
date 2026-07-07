@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .engineer one-word domains 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,171 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,171 domains · **Median ask:** $33.90 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,171 domains · **Median ask:** $34.27 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/engineer`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/engineer`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .ENGINEER one-word dom
 
 ### Files
 
-- `engineer.csv` — public CSV extract (1,000 rows)
-- `engineer.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `engineer.csv`, public CSV extract (1,000 rows)
+- `engineer.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
-| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
-| Acup.engineer     | available | $52.98    | —             | 80             | 5      | 5      | namecheap   |
-| jewels.engineer   | available | $13.99    | —             | 80             | 15     | 6      | name.com    |
-| geton.engineer    | available | $13.99    | —             | 82             | 10     | 6      | name.com    |
-| popup.engineer    | available | $13.99    | —             | 84             | 28     | 6      | name.com    |
-| dogsit.engineer   | available | $13.99    | —             | 96             | 2      | 6      | name.com    |
-| edamame.engineer  | available | $13.99    | —             | 80             | 9      | 7      | name.com    |
-| QandA.engineer    | available | $52.98    | —             | 80             | 10     | 7      | namecheap   |
-| hangon.engineer   | available | $13.99    | —             | 82             | 6      | 7      | name.com    |
-| makeit.engineer   | available | $13.99    | —             | 82             | 21     | 7      | name.com    |
-| stirup.engineer   | available | $13.99    | —             | 82             | 3      | 7      | name.com    |
-| getlife.engineer  | available | $13.99    | —             | 80             | 5      | 8      | name.com    |
-| leaveon.engineer  | available | $13.99    | —             | 80             | 1      | 8      | name.com    |
-| spectra.engineer  | available | $13.99    | —             | 62             | 34     | 7      | name.com    |
-| maps.engineer     | resell    | —         | —             | 56             | 31     | 4      | Dynadot Inc |
-| WiFi.engineer     | premium   | $1,400    | $1,400        | 83             | 37     | 5      | namecheap   |
-| gods.engineer     | available | $13.99    | —             | 72             | 29     | 4      | name.com    |
-| SanDiego.engineer | premium   | $1,107    | $1,107        | 74             | 29     | 9      | namesilo    |
-| quotes.engineer   | available | $13.99    | —             | 58             | 29     | 6      | name.com    |
-| pages.engineer    | premium   | $75       | —             | 52             | 28     | 5      | name.com    |
-| cams.engineer     | available | $13.99    | —             | 52             | 29     | 4      | name.com    |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| correct.engineer | available | $13.99    | $56.99        | high           | low    | 7      | name.com     |
+| period.engineer  | available | $13.99    | —             | high           | low    | 6      | name.com     |
+| ala.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| bear.engineer    | resell    | —         | —             | high           | low    | 4      | Dynadot Inc  |
+| bob.engineer     | premium   | $71.40    | $71.40        | high           | medium | 3      | namesilo     |
+| ate.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| gear.engineer    | resell    | —         | —             | high           | low    | 4      | Dynadot Inc  |
+| gas.engineer     | premium   | $1,300    | $1,300        | high           | low    | 3      | namecheap    |
+| axe.engineer     | available | $13.99    | —             | medium         | low    | 3      | name.com     |
+| zero.engineer    | resell    | —         | —             | high           | medium | 4      | Dynadot Inc  |
+| job.engineer     | premium   | $1,250    | —             | high           | low    | 3      | name.com     |
+| beg.engineer     | available | $13.99    | —             | medium         | low    | 3      | name.com     |
+| three.engineer   | resell    | —         | —             | high           | low    | 5      | Porkbun LLC  |
+| map.engineer     | premium   | $78       | $78           | high           | medium | 3      | namecheap    |
+| did.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| token.engineer   | resell    | —         | —             | high           | medium | 5      | Dynadot Inc  |
+| mat.engineer     | premium   | $71.40    | $71.40        | high           | low    | 3      | namesilo     |
+| ear.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| unity.engineer   | resell    | —         | —             | high           | low    | 5      | Sav.com, LLC |
+| non.engineer     | premium   | $71.40    | $71.40        | high           | low    | 3      | namesilo     |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-These domains are all one-word names on the .engineer extension. That makes the set specific: buyers are comparing not just the word itself, but how naturally it pairs with a profession-first TLD. Some names are direct and functional, while others are broader or more abstract, such as Acup.engineer, Trex.engineer, girls.engineer, finals.engineer, and forces.engineer. When comparing these domains, focus on whether the word strengthens technical credibility, stays easy to say aloud, and still feels relevant with .engineer attached. The median ask is 33.9, so price discipline matters less than picking a name with clear meaning, clean pronunciation, and low ambiguity.
+This list holds 12,171 one-word domain names on the .engineer extension, a niche TLD built for engineering, technical, and maker-oriented projects. Names like half.engineer, feel.engineer, and correct.engineer show the pattern: single dictionary words, short and easy to say. With a median ask around $34, the set spans both cheap, easy grabs and pricier standout words, giving investors volume to sift through and founders a fast shortlist of ownable, brandable options.
 
-- Check if the word sounds natural with .engineer
-- Prefer clear spelling and low ambiguity
-- Compare broad brandables versus literal terms
-- Review renewal terms before committing
+- 12,171 one-word .engineer domain names in this list
+- Median ask near $34 across the selection
+- Short, dictionary words like half, feel, and correct
+- Fits engineering, technical, and builder-focused brands
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
