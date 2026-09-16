@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .engineer one-word domains 
 
 **Public extract:** 1,000 rows · **Live catalog:** 24,190 domains · **Median ask:** $30.11 · **High-demand under $2,500:** 5
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/engineer`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| --------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| ala.engineer          | available | $13.99    | —             | high           | low    | 3      | name.com        |
-| bear.engineer         | resell    | —         | —             | high           | low    | 4      | Dynadot Inc     |
-| bob.engineer          | premium   | $71.40    | $71.40        | high           | medium | 3      | namesilo        |
-| ass.engineer          | available | $17.99    | $56.99        | low            | low    | 3      | name.com        |
-| gear.engineer         | resell    | —         | —             | high           | low    | 4      | Dynadot Inc     |
-| gas.engineer          | premium   | $1,300    | $1,300        | high           | low    | 3      | namecheap       |
-| ate.engineer          | available | $13.99    | —             | high           | low    | 3      | name.com        |
-| zero.engineer         | resell    | —         | —             | high           | medium | 4      | Dynadot Inc     |
-| job.engineer          | premium   | $1,250    | —             | high           | low    | 3      | name.com        |
-| axe.engineer          | available | $13.99    | —             | medium         | low    | 3      | name.com        |
-| three.engineer        | resell    | —         | —             | high           | low    | 5      | Porkbun LLC     |
-| map.engineer          | premium   | $78       | $78           | high           | medium | 3      | namecheap       |
-| beg.engineer          | available | $13.99    | —             | medium         | low    | 3      | name.com        |
-| token.engineer        | resell    | —         | —             | high           | medium | 5      | Dynadot Inc     |
-| mat.engineer          | premium   | $71.40    | $71.40        | medium         | low    | 3      | namesilo        |
-| cxl.engineer          | available | $17.99    | $56.99        | low            | low    | 3      | name.com        |
-| unity.engineer        | resell    | —         | —             | high           | low    | 5      | Sav.com, LLC    |
-| non.engineer          | premium   | $71.40    | $71.40        | high           | low    | 3      | namesilo        |
-| did.engineer          | available | $13.99    | —             | high           | low    | 3      | name.com        |
-| intelligence.engineer | resell    | —         | —             | high           | low    | 12     | NameCheap, Inc. |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| correct.engineer | available | $13.99    | $56.99        | high           | low    | 7      | name.com     |
+| period.engineer  | available | $13.99    | —             | high           | low    | 6      | name.com     |
+| ala.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| bear.engineer    | resell    | —         | —             | high           | low    | 4      | Dynadot Inc  |
+| bob.engineer     | premium   | $71.40    | $71.40        | high           | medium | 3      | namesilo     |
+| ass.engineer     | available | $17.99    | $56.99        | low            | low    | 3      | name.com     |
+| gear.engineer    | resell    | —         | —             | high           | low    | 4      | Dynadot Inc  |
+| gas.engineer     | premium   | $1,300    | $1,300        | high           | low    | 3      | namecheap    |
+| ate.engineer     | available | $13.99    | —             | high           | low    | 3      | name.com     |
+| zero.engineer    | resell    | —         | —             | high           | medium | 4      | Dynadot Inc  |
+| job.engineer     | premium   | $1,250    | —             | high           | low    | 3      | name.com     |
+| axe.engineer     | available | $13.99    | —             | medium         | low    | 3      | name.com     |
+| three.engineer   | resell    | —         | —             | high           | low    | 5      | Porkbun LLC  |
+| map.engineer     | premium   | $78       | $78           | high           | medium | 3      | namecheap    |
+| beg.engineer     | available | $13.99    | —             | medium         | low    | 3      | name.com     |
+| token.engineer   | resell    | —         | —             | high           | medium | 5      | Dynadot Inc  |
+| mat.engineer     | premium   | $71.40    | $71.40        | medium         | low    | 3      | namesilo     |
+| cxl.engineer     | available | $17.99    | $56.99        | low            | low    | 3      | name.com     |
+| unity.engineer   | resell    | —         | —             | high           | low    | 5      | Sav.com, LLC |
+| non.engineer     | premium   | $71.40    | $71.40        | high           | low    | 3      | namesilo     |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .ENGINEER One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
